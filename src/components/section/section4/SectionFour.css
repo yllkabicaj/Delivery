@@ -1,0 +1,80 @@
+
+.servicesalign {
+    height: 700px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .services {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .services-title {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    margin-bottom: 47.5px;
+  }
+  
+  .services-boxes {
+    margin-top: 47.5px;
+    width: 100%;
+    height: 306px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .service-box {
+    width: 261px;
+    height: 306px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 25px;
+    margin: 0 61.5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  .service-box h3 {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+  }
+  
+  .service-box p {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+    z-index: 5;
+  }
+  
+  .service-box a {
+    text-decoration: none;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+  }
+  
